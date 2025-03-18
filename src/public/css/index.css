@@ -1,0 +1,211 @@
+.contact-form__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    text-align: center;
+}
+
+h2 {
+    margin: 50px 0;
+    height: 46px;
+    color: #8b7969;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Inika";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    font-family: "Inika";
+    font-weight: 400;
+    font-style: normal;
+    color: #8b7969;
+}
+
+.form__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 0;
+}
+
+.form__group-title {
+    height: 26px;
+    font-size: 20px;
+}
+
+.form__label--required {
+    color: #f00;
+}
+
+.form__error {
+    max-height: 40px;
+    /*background-color: rgba(135, 131, 120, 0.15); */
+    width: fit-content;
+    color: #eb5757;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.form__group-content {
+    width: 70%;
+    text-align: left;
+}
+
+.form__input--name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--name-content {
+    width: 45%;
+    height: 38px;
+    padding-left: 23px;
+    background: #f4f4f4;
+    font-family: inherit;
+    font-size: 14px;
+    color: #beb1a6;
+    border: none;
+}
+
+.form__input--gender {
+    width: 60%;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--gender label {
+    padding: 0 0 0 24px;
+    line-height: 23px;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.form__input--gender label:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #8b7969;
+    border-radius: 50%;
+}
+
+.form__input--gender input[type="radio"] {
+    display: none;
+}
+
+.form__input--gender input[type="radio"]:checked + label:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #8b7969;
+    border-radius: 50%;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    width: 100%;
+    padding-left: 23px;
+    background: #f4f4f4;
+    font-family: inherit;
+    font-size: 14px;
+    color: #beb1a6;
+    border: none;
+}
+
+.form__input--text input {
+    height: 38px;
+}
+
+.form__input--textarea textarea {
+    height: 129px;
+    padding-top: 16px;
+}
+
+.form__input--tel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--tel-content {
+    width: 30%;
+    height: 38px;
+    text-align: center;
+    background: #f4f4f4;
+    font-family: inherit;
+    font-size: 14px;
+    color: #beb1a6;
+    border: none;
+}
+
+.form__input--tel-hyphen {
+    height: 26px;
+}
+
+.form__input--select {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 38px;
+    padding-left: 23px;
+    background: #f4f4f4;
+    font-family: inherit;
+    font-size: 14px;
+    border: none;
+}
+/*プルダウンの三角のデザインを設定*/
+.form__input--select::before {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    content: "";
+    width: 30px;
+    height: 20px;
+    background-color: #beb1a6;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.form__input--select select {
+    width: 100%;
+    padding: 10px 45px 10px 10px;
+    color: #beb1a6;
+    cursor: pointer;
+    text-overflow: ellipsis; /* テキストがオーバーしたら'...'で省略 */
+    z-index: 1;
+    /* 標準のスタイルを無効にする */
+    border: none;
+    appearance: none;
+    outline: none;
+    background: transparent;
+}
+
+.form__button {
+    padding: 15px 0 30px;
+}
+
+.form__button-submit {
+    padding: 10px 40px;
+    width: 160px;
+    height: 46px;
+    border: none;
+    background: #82756a;
+    color: #fff;
+    cursor: pointer;
+}

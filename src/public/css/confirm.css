@@ -1,0 +1,121 @@
+.confirm__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.confirm__heading {
+    text-align: center;
+}
+
+h2 {
+    margin: 50px 0;
+    height: 46px;
+    color: #8b7969;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Inika";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form {
+    margin: 0 auto;
+    width: 65%;
+}
+
+.confirm-table {
+    border: 1px solid #e0dfde;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 30%;
+    border-bottom: 1px solid #e0dfde;
+    background-color: #baa899;
+    font-size: 20px;
+    font-family: "Inika";
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    text-align: left;
+}
+
+.confirm-table__text {
+    padding: 20px 20px 20px 45px;
+    border-bottom: 1px solid #e0dfde;
+    font-size: 20px;
+    font-family: "Inika";
+    font-weight: 400;
+    font-style: normal;
+    color: #8b7969;
+}
+
+.confirm-table__text input {
+    font-size: 20px;
+    font-family: "Inika";
+    font-weight: 400;
+    font-style: normal;
+    color: #8b7969;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__row:first-child .confirm-table__text input {
+    field-sizing: content;
+    min-width: 20px;
+    max-width: 200px;
+}
+
+.confirm-table__row:nth-child(n + 2) .confirm-table__text input {
+    width: 100%;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+    padding-bottom: 30px;
+}
+
+.form__button--submit {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 40px;
+    width: 120px;
+    height: 42px;
+    border: none;
+    background: #82756a;
+    font-size: 20px;
+    font-family: "Inika";
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__button--back {
+    position: absolute;
+    left: calc(50% + 112px);
+    padding: 10px 0;
+    height: 42px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-family: "Inika";
+    font-weight: 400;
+    font-style: normal;
+    color: #8b7969;
+    text-decoration: underline;
+    cursor: pointer;
+}
