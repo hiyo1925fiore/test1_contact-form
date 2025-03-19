@@ -6,9 +6,7 @@
 @endsection
 
 @section('auth__button')
-<div class="login__link">
-    <a class="login__button-submit" href="/login">login</a>
-</div>
+<button class="login__button-submit" onclick="location.href='/login'">login</button>
 @endsection
 
 @section('content')

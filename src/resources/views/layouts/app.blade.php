@@ -15,10 +15,12 @@
 <body>
     <header class="header">
         <div class="header__inner">
-            <p class="header__logo">
+                <p class="header__logo">
                 FashionablyLate
-            </p>
-            @yield('auth__button')
+                </p>
+                <div class="login__link">
+                    @yield('auth__button')
+                </div>
         </div>
     </header>
 

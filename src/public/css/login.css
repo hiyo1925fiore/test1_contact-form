@@ -1,0 +1,13 @@
+.register__button-submit {
+    margin: auto 0;
+    width: 100px;
+    height: 34px;
+    border: 1px solid #d9c6b5;
+    background-color: rgba(240, 240, 240, 0.6);
+    font-size: 20px;
+    font-family: "Inika";
+    font-weight: 400;
+    font-style: normal;
+    color: #d9c6b5;
+    cursor: pointer;
+}

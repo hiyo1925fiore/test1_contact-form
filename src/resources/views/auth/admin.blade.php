@@ -9,7 +9,7 @@
 @if (Auth::check())
     <form class="form" action="/logout" method="post">
         @csrf
-        <button class="header-nav__button">logout</button>
+        <button class="logout__button">logout</button>
     </form>
 @endif
 @endsection
